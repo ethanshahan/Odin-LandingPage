@@ -34,10 +34,63 @@ ul{
 }
 
 .s1-text button{
-    flex-basis:none;
+    max-width: 100px;
 }
 
 .s1-image img{
     width: 200px;
     height: auto;
+}
+
+.section-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.s2-images{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.updates{
+    display:flex;
+    flex-direction: column;
+    max-width: 200px;
+}
+
+.section-three{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+    padding: 50px;
+}
+
+
+.s3-container {
+    max-width: 500px;
+    
+}
+
+.s3-container a{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.section-four{
+    display: flex;
+    background-color: violet;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px;
+    padding: 20px 60px;
+}
+
+.section-five{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: navy;
+    color: white;
 }
