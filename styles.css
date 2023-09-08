@@ -1,0 +1,43 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.header-logo img{
+    width: 200px;
+    height:auto;
+}
+
+.header-links{
+    display:flex;
+    gap:16px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+.section-one{
+    display:flex;
+    padding: 100px;
+    justify-content: space-around;
+    
+}
+
+.s1-text{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 500px;
+}
+
+.s1-text button{
+    flex-basis:none;
+}
+
+.s1-image img{
+    width: 200px;
+    height: auto;
+}
